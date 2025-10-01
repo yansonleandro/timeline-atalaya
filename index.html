@@ -13,7 +13,7 @@
             --background-color: #f8f8f8;
             --line-position: 150px; /* Ancho de la columna izquierda y posición de la línea */
             --content-width: 1200px; /* Ancho máximo del contenido */
-            --event-spacing: 100px; /* Espaciado entre las tarjetas de contenido */
+            --event-spacing: 0px; /* Eliminado el espaciado entre tarjetas */
         }
 
         body {
@@ -108,7 +108,7 @@
         .timeline-container {
             margin-left: var(--line-position); /* Empuja el contenido a la derecha de la columna de fechas */
             padding-top: 120px; /* Espacio para la barra de navegación */
-            padding-bottom: 50vh; /* Espacio al final para permitir que el último elemento se centre */
+            /* padding-bottom: 50vh; -> Se eliminará y se gestionará con JS */
             position: relative;
             width: calc(100% - var(--line-position));
         }
@@ -122,15 +122,17 @@
             padding: 0 40px;
             margin-bottom: var(--event-spacing); /* Volvemos a usar margen para separar eventos */
             min-height: 200px; /* Altura mínima para que el observer funcione bien */
-        }
+        }        
         .timeline-event:last-child {
             margin-bottom: 0; /* El último elemento no necesita margen inferior */
+            min-height: auto; /* Anula la altura mínima para evitar espacio extra al final */
         }
 
         /* --- MARCADOR DE FECHA (Píldora en la columna izquierda) --- */
         .event-label-wrapper {
             position: relative;
             display: flex; /* Usa flexbox para alinear la fecha y la estrella */
+            flex-direction: column; /* Apila el año y la estrella verticalmente */
             align-items: center; /* Centra verticalmente la fecha y la estrella entre sí */
             transform-origin: center center; /* Origen de la transformación para la escala */
             transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -148,7 +150,7 @@
             position: relative; /* Fluye dentro del event-label-wrapper */
             font-size: 2.2em; /* Tamaño de la estrella */
             color: inherit; /* Hereda el color del event-label-wrapper */
-            padding-left: 5px; /* Espacio entre la fecha y la estrella */
+            padding-left: 0; /* Espaciado horizontal ya no es necesario */
             pointer-events: auto; /* Habilita eventos de puntero para el punto */
         }
 
@@ -245,20 +247,30 @@
         /* --- MEDIA QUERIES (Móviles) --- */
         @media screen and (max-width: 900px) {
             :root {
-                --line-position: 80px; /* Ancho reducido para móviles */
+                --line-position: 60px; /* Ancho reducido para la columna de fechas */
             }
+
+            /* Ocultar solo la barra de navegación superior */
+            .top-nav {
+                display: none;
+            }
+
+            /* Ajustar el contenedor principal para que deje espacio a la columna de fechas */
+            .timeline-container {
+                margin-left: var(--line-position);
+                width: calc(100% - var(--line-position));
+                padding-top: 20px; /* Menos espacio superior al no haber nav */
+            }
+
+            /* Reducir padding y tamaños de fuente para que quepan */
             .timeline-event {
+                padding: 0 15px;
             }
             .event-year-label {
-                /* El posicionamiento ahora lo maneja el event-label-wrapper */
-                font-size: 1.2em;
+                font-size: 1em;
             }
             .event-content-wrapper {
                 padding: 15px;
-            }
-            .top-nav {
-                justify-content: flex-start; /* Alinea los links a la izquierda en móvil */
-                overflow-x: auto; /* Permite scroll horizontal en la nav si no cabe */
             }
         }
     </style>
@@ -403,8 +415,8 @@
                 pointDiv.classList.add('event-point');
                 pointDiv.innerHTML = '&#9733;';
 
-                labelWrapperDiv.appendChild(yearLabelDiv); // Fecha primero
-                labelWrapperDiv.appendChild(pointDiv); // Luego la estrella
+                labelWrapperDiv.appendChild(pointDiv); // Estrella primero
+                labelWrapperDiv.appendChild(yearLabelDiv); // Luego la fecha
                 dateMarkersContainer.appendChild(labelWrapperDiv);
 
                 // Crear y añadir el enlace a la barra de navegación
@@ -473,10 +485,10 @@
                         // Activar el evento, el link de nav y el marcador de fecha
                         entry.target.classList.add('is-active');
                         if (navLink) navLink.classList.add('is-active');
+                        
                         if (dateMarker) {
                             const dateContainer = document.getElementById('dateMarkersContainer');
                             dateMarker.classList.add('is-active');
-                            // Usar la nueva función de scroll armónico
                             smoothScrollTo(dateContainer, dateMarker);
                         }
                     } else { 
@@ -544,6 +556,7 @@
                 if (firstMarker) firstMarker.classList.add('is-active');
             }
         });
+
     </script>
 
 </body>
