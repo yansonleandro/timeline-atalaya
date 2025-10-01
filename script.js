@@ -2,74 +2,74 @@
 const timelineData = [
     {
         year: '2025',
-        mainTitle: 'Futuro Sostenible y Expansión Global',
+        mainTitle: 'Copa Santa Fe 2025',
         imageURL: 'https://picsum.photos/650/250?random=1', 
         items: [
-            { slideTitle: 'Nuevos Campus', content: 'Inauguración de nuevos campus en Asia y Europa, expandiendo nuestra presencia global.' },
+            { slideTitle: 'Atalaya Club 71 - 68 Sanjustino', content: 'Integrantes: Joaquin Baridon, Juan Jose Borches, Tomas Casas, Nicolas Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolas Giraudo, Facundo Maruelli, Gabriel Martin, Juan Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
         ]
     },
     {
         year: '2025', // Año repetido
-        mainTitle: 'Alianza Estratégica Tecnológica',
+        mainTitle: 'Copa 99º Aniversario 2025',
         imageURL: 'https://picsum.photos/650/250?random=2', 
         items: [
-            { slideTitle: 'Colaboración con Tech Corp', content: 'Firma de un acuerdo histórico para desarrollar laboratorios de inteligencia artificial de última generación.' },
+            { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridon, Juan Jose Borches, Tomas Casas, Nicolas Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolas Giraudo, Facundo Maruelli, Gabriel Martin, Juan Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
         ]
     },
     {
         year: '2023',
-        mainTitle: 'Premio Nobel de Medicina',
+        mainTitle: 'Copa 95º Aniversario 2023',
         imageURL: 'https://picsum.photos/650/250?random=3', 
         items: [
-            { slideTitle: 'Investigación Revolucionaria', content: 'Un equipo de la universidad es galardonado con el Premio Nobel por su trabajo pionero en terapia génica.' },
+            { slideTitle: 'Atalaya Club 88 - 73 Unión y Progreso', content: 'Integrantes: Tomas Casas, Nicolas Castaño, Joaquin Etchevarne, Nicolas Giraudo, Francisco Lopez, Facundo Maruelli, Brian Najnudel, Emanuel Rava, Luka Rueda, Rafael Scaglia, Maximo Sosa, Leandro Yanson, Andres Malajovich (DT).' }
         ]
     },
     {
         year: '2021',
-        mainTitle: 'Lanzamiento de Plataforma Híbrida',
+        mainTitle: 'Superliga Rosarina 2021',
         imageURL: 'https://picsum.photos/650/250?random=4', 
         items: [
-            { slideTitle: 'Modelo "Flex-Learn"', content: 'Implementación de un nuevo modelo de aprendizaje que combina clases presenciales y en línea de forma fluida.' },
+            { slideTitle: 'Atalaya Club 61 - 56 Sportsmen Unidos', content: 'Integrantes: Bernard Baez, Juan Jose Borches, Tomas Casas, Nicolas Castaño, Mateo Ceñera, Mateo Lopez, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Luka Rueda, Maximo Sosa, Alejo Suarez, Lautaro Suarez, Mauro Tarrago, Lisandro Villa, Leandro Yanson, Andres Malajovich (DT).' }
         ]
     },
      {
         year: '2019',
-        mainTitle: 'Centenario de la Universidad',
+        mainTitle: 'Superliga Rosarina 2019',
         imageURL: 'https://picsum.photos/650/250?random=5', 
         items: [
-            { slideTitle: 'Celebraciones y Eventos', content: 'Un año completo de celebraciones para conmemorar los 100 años de historia, impacto y excelencia académica.' }
+            { slideTitle: 'Atalaya Club 79 - 59 Temperley', content: 'Integrantes: Juan Jose Borches, Alejandro Ettorre, Santiago Giraudo, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Federico Perez, Emanuel Rava, Lautaro Suarez, Lisandro Villa, Joaquín Villanueva, Leandro Yanson, Maximiliano Yanson, Valentino Zanoni, Mariano Junco (DT).' }
         ]
     },
     {
         year: '2018',
-        mainTitle: 'Inauguración del Centro de Artes',
+        mainTitle: 'Superliga Rosarina 2018',
         imageURL: 'https://picsum.photos/650/250?random=6', 
         items: [
-            { slideTitle: 'Un Nuevo Escenario', content: 'Se abre un moderno centro para teatro, danza y música, fomentando la creatividad en el campus.' }
+            { slideTitle: 'Atalaya Club 72 - 68 Talleres R.P.B.', content: 'Integrantes: Juan Jose Borches, Aaron Capra, Alejandro Ettorre, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Joaquin Rios, Lautaro Suarez, Gonzalo Tapatta, Lisandro Villa, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
     },
     {
         year: '2017',
-        mainTitle: 'Campeonato Nacional Deportivo',
+        mainTitle: 'Superliga Rosarina 2017',
         imageURL: 'https://picsum.photos/650/250?random=7', 
         items: [
-            { slideTitle: 'Victoria Histórica', content: 'El equipo de baloncesto gana el campeonato nacional, un hito para el deporte universitario.' }
+            { slideTitle: 'Atalaya Club 57 - 54 El Tala', content: 'Integrantes: Felipe Avataneo, Manuel Bello, Juan Jose Borches, Aaron Capra, Brandon Gargicevich, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Perez, Leandro Pugnali, Lautaro Suarez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
     },
     {
         year: '2017', // Año repetido
-        mainTitle: 'Programa de Becas Globales',
+        mainTitle: 'Liga Rosarina 2016/17',
         imageURL: 'https://picsum.photos/650/250?random=8', 
         items: [
-            { slideTitle: 'Acceso a la Educación', content: 'Lanzamiento de un ambicioso programa de becas para estudiantes internacionales de bajos recursos.' }
+            { slideTitle: 'Atalaya Club 72 - 60 C.A.O.V.A.', content: 'Integrantes: Felipe Avataneo, Juan Jose Borches, Brandon Gargicevich, Fabrisio Lasala, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Perez, Leandro Pugnali, Lautaro Suarez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
     },
     {
         year: '1997',
-        mainTitle: 'Lanzamiento del Primer Sitio Web',
+        mainTitle: 'Liga Rosarina 1997',
         imageURL: 'https://picsum.photos/650/250?random=9', 
         items: [
-            { slideTitle: 'Presencia Digital', content: 'La universidad estrena su primer sitio web oficial, abriendo un nuevo canal de comunicación con el mundo.' }
+            { slideTitle: 'Atalaya Club 92 - 89 Provincial', content: 'Integrantes: German Andersen, Gabriel Bracco, Julio Galvan, Mariano Garcia, Sebastian Garnero, Gaston Morange, Martin Moser, Gabriel Paradiso, Gallardo Peca, Mauricio Piva, Leandro Tano, Pablo Vela, Guillermo Pio All (DT).' }
         ]
     }
 ];
@@ -85,6 +85,7 @@ function renderTimeline() {
     const navFragment = document.createDocumentFragment();
     const markersFragment = document.createDocumentFragment();
 
+    const totalEvents = timelineData.length;
     timelineData.forEach((event, index) => {
         const uniqueId = `event-${event.year}-${index}`; // Crear un ID único
         
@@ -96,9 +97,10 @@ function renderTimeline() {
         const wrapperDiv = document.createElement('div');
         wrapperDiv.className = 'event-content-wrapper';
         
+        const starNumber = totalEvents - index; // Calcula el número de estrella (1 para el más antiguo)
         wrapperDiv.innerHTML = `
             <img src="${event.imageURL}" alt="${event.mainTitle}" class="event-image">
-            <h2>${event.mainTitle}</h2>
+            <h2>${starNumber}★ - ${event.mainTitle}</h2>
         `;
         const sliderContainer = document.createElement('div');
         sliderContainer.className = 'horizontal-slider';
@@ -173,13 +175,35 @@ function smoothScrollTo(container, element, duration = 800) {
     requestAnimationFrame(animation);
 }
 
+// Función de scroll suave para la ventana principal que centra el elemento bajo el nav
+function scrollToElementCentered(element, duration = 800) {
+    const navHeight = document.querySelector('.top-nav')?.offsetHeight || 60; // Altura del nav
+    const viewportHeight = window.innerHeight;
+    const elementRect = element.getBoundingClientRect();
+
+    // Calcula el punto de scroll para centrar el elemento en el espacio visible
+    const targetScrollY = window.pageYOffset + elementRect.top - navHeight - (viewportHeight - navHeight) / 2 + elementRect.height / 2;
+    const startPosition = window.pageYOffset;
+    let startTime = null;
+    const easeInOutQuad = t => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+
+    function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const progress = Math.min(timeElapsed / duration, 1);
+        const easedProgress = easeInOutQuad(progress);
+        window.scrollTo(0, startPosition + (targetScrollY - startPosition) * easedProgress);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+    requestAnimationFrame(animation);
+}
 // 3. LÓGICA DE INTERACCIÓN Y ANIMACIÓN
 function setupEventListeners() {
     // Intersection Observer para activar eventos al hacer scroll
     const events = document.querySelectorAll('.timeline-event');
     const observerOptions = {
-        root: null, 
-        rootMargin: '-50% 0px -50% 0px',
+        root: null,
+        rootMargin: '-45% 0px -55% 0px', // Ajustado para centrar debajo del nav
         threshold: 0
     };
     const observer = new IntersectionObserver((entries) => {
@@ -207,7 +231,7 @@ function setupEventListeners() {
             e.preventDefault();
             const targetElement = document.querySelector(this.getAttribute('href'));
             if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                scrollToElementCentered(targetElement);
             }
         });
     });
@@ -217,7 +241,7 @@ function setupEventListeners() {
         marker.addEventListener('click', function() {
             const targetElement = document.getElementById(this.dataset.targetId);
             if (targetElement) {
-                targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                scrollToElementCentered(targetElement);
             }
         });
     });
@@ -228,17 +252,24 @@ document.addEventListener('DOMContentLoaded', function() {
     if ('scrollRestoration' in history) {
         history.scrollRestoration = 'manual';
     }
-    window.scrollTo(0, 0);
     renderTimeline();
 
     // Activar el primer evento por defecto al cargar
     const firstEvent = document.querySelector('.timeline-event');
     if (firstEvent) {
+        // Posicionar la ventana en el primer elemento sin animación
+        const navHeight = document.querySelector('.top-nav')?.offsetHeight || 60;
+        const viewportHeight = window.innerHeight;
+        const initialScroll = firstEvent.offsetTop - navHeight - (viewportHeight - navHeight) / 2 + firstEvent.offsetHeight / 2;
+        window.scrollTo(0, initialScroll);
+
+        // Activar las clases correspondientes
         const uniqueId = firstEvent.id;
         const firstNavLink = document.querySelector(`.nav-link[data-event-year="${uniqueId}"]`);
         const firstMarker = document.querySelector(`.event-label-wrapper[data-event-year="${uniqueId}"]`);
-        firstEvent.classList.add('is-active');
-        if (firstNavLink) firstNavLink.classList.add('is-active');
-        if (firstMarker) firstMarker.classList.add('is-active');
+        
+        // El observer se encargará de añadir la clase 'is-active' al cargar
+    } else {
+        window.scrollTo(0, 0);
     }
 });
