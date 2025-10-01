@@ -132,6 +132,7 @@
         .event-label-wrapper {
             position: relative;
             display: flex; /* Usa flexbox para alinear la fecha y la estrella */
+            flex-direction: column; /* Apila el año y la estrella verticalmente */
             align-items: center; /* Centra verticalmente la fecha y la estrella entre sí */
             transform-origin: center center; /* Origen de la transformación para la escala */
             transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -149,7 +150,7 @@
             position: relative; /* Fluye dentro del event-label-wrapper */
             font-size: 2.2em; /* Tamaño de la estrella */
             color: inherit; /* Hereda el color del event-label-wrapper */
-            padding-left: 5px; /* Espacio entre la fecha y la estrella */
+            padding-left: 0; /* Espaciado horizontal ya no es necesario */
             pointer-events: auto; /* Habilita eventos de puntero para el punto */
         }
 
@@ -270,13 +271,6 @@
             }
             .event-content-wrapper {
                 padding: 15px;
-            }
-            /* Apilar el año y la estrella en móviles */
-            .event-label-wrapper {
-                flex-direction: column;
-            }
-            .event-point {
-                padding-left: 0; /* Eliminar el espaciado horizontal */
             }
         }
     </style>
@@ -421,8 +415,8 @@
                 pointDiv.classList.add('event-point');
                 pointDiv.innerHTML = '&#9733;';
 
-                labelWrapperDiv.appendChild(yearLabelDiv); // Fecha primero
-                labelWrapperDiv.appendChild(pointDiv); // Luego la estrella
+                labelWrapperDiv.appendChild(pointDiv); // Estrella primero
+                labelWrapperDiv.appendChild(yearLabelDiv); // Luego la fecha
                 dateMarkersContainer.appendChild(labelWrapperDiv);
 
                 // Crear y añadir el enlace a la barra de navegación
