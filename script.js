@@ -3,7 +3,7 @@ const timelineData = [
     {
         year: '2025',
         mainTitle: 'Copa Santa Fe 2025',
-        imageURL: 'https://picsum.photos/650/250?random=1', 
+        imageURL: 'images/2025-2.jpeg', 
         items: [
             { slideTitle: 'Atalaya Club 71 - 68 Sanjustino', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
         ]
@@ -11,7 +11,7 @@ const timelineData = [
     {
         year: '2025', // Año repetido
         mainTitle: 'Copa 99º Aniversario 2025',
-        imageURL: 'https://picsum.photos/650/250?random=2', 
+        imageURL: 'images/2025-1.jpeg', 
         items: [
             { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
         ]
@@ -27,7 +27,7 @@ const timelineData = [
     {
         year: '2021',
         mainTitle: 'Superliga Rosarina 2021',
-        imageURL: 'https://picsum.photos/650/250?random=4', 
+        imageURL: 'images/2021.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 61 - 56 Sportsmen Unidos', content: 'Integrantes: Bernard Báez, Juan José Borches, Tomás Casas, Nicolás Castaño, Mateo Ceñera, Mateo López, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Luka Rueda, Máximo Sosa, Alejo Suárez, Lautaro Suárez, Mauro Tarragó, Lisandro Villa, Leandro Yanson, Andrés Malajovich (DT).' }
         ]
@@ -35,7 +35,7 @@ const timelineData = [
      {
         year: '2019',
         mainTitle: 'Superliga Rosarina 2019',
-        imageURL: 'https://picsum.photos/650/250?random=5', 
+        imageURL: 'images/2019.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 79 - 59 Temperley', content: 'Integrantes: Juan José Borches, Alejandro Ettorre, Santiago Giraudo, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Federico Pérez, Emanuel Rava, Lautaro Suárez, Lisandro Villa, Joaquín Villanueva, Leandro Yanson, Maximiliano Yanson, Valentino Zanoni, Mariano Junco (DT).' }
         ]
@@ -43,7 +43,7 @@ const timelineData = [
     {
         year: '2018',
         mainTitle: 'Superliga Rosarina 2018',
-        imageURL: 'https://picsum.photos/650/250?random=6', 
+        imageURL: 'images/2018.jpeg', 
         items: [
             { slideTitle: 'Atalaya Club 72 - 68 Talleres R.P.B.', content: 'Integrantes: Juan José Borches, Aarón Capra, Alejandro Ettorre, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Joaquín Rios, Lautaro Suárez, Gonzalo Tapatta, Lisandro Villa, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
@@ -51,7 +51,7 @@ const timelineData = [
     {
         year: '2017',
         mainTitle: 'Superliga Rosarina 2017',
-        imageURL: 'https://picsum.photos/650/250?random=7', 
+        imageURL: 'images/2017.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 57 - 54 El Tala', content: 'Integrantes: Felipe Avataneo, Manuel Bello, Juan José Borches, Aarón Capra, Brandon Gargicevich, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
@@ -59,7 +59,7 @@ const timelineData = [
     {
         year: '2017', // Año repetido
         mainTitle: 'Liga Rosarina 2016/17',
-        imageURL: 'https://picsum.photos/650/250?random=8', 
+        imageURL: 'images/2016-17.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 72 - 60 C.A.O.V.A.', content: 'Integrantes: Felipe Avataneo, Juan José Borches, Brandon Gargicevich, Fabrisio Lasala, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
