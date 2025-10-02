@@ -11,7 +11,7 @@ const timelineData = [
     {
         year: '2025', // Año repetido
         mainTitle: 'Copa 99º Aniversario 2025',
-        imageURL: 'images/2025-1.jpeg', 
+        imageURL: 'images/2025-1.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
         ]
@@ -19,7 +19,7 @@ const timelineData = [
     {
         year: '2023',
         mainTitle: 'Copa 95º Aniversario 2023',
-        imageURL: 'https://picsum.photos/650/250?random=3', 
+        imageURL: 'images/2023.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 88 - 73 Unión y Progreso', content: 'Integrantes: Tomás Casas, Nicolás Castaño, Joaquín Etchevarne, Nicolás Giraudo, Francisco López, Facundo Maruelli, Brian Najnudel, Emanuel Rava, Luka Rueda, Rafael Scaglia, Máximo Sosa, Leandro Yanson, Andrés Malajovich (DT).' }
         ]
