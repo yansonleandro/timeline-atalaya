@@ -103,6 +103,7 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
     margin-left: var(--line-position); /* Empuja el contenido a la derecha de la columna de fechas */
     padding-top: 120px; /* Espacio para la barra de navegación */
     position: relative;
+    padding-bottom: 5vh; /* Espacio extra al final del scroll */
     width: calc(100% - var(--line-position));
 }
 
@@ -194,11 +195,12 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
     font-size: 1.8em;
 }
 
-/* Estilo de la imagen */
+/* Imagen principal (visible y nítida) */
 .event-image {
     width: 100%;
     height: 250px;
-    object-fit: cover;
+    object-fit: cover; /* Recorta la imagen para llenar el espacio */
+    object-position: center; /* Centra la imagen dentro de su espacio */
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -235,7 +237,7 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
 }
 
 /* --- MEDIA QUERIES (Móviles) --- */
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
     :root {
         --line-position: 60px; /* Ancho reducido para la columna de fechas */
     }
