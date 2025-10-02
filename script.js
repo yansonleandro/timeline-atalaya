@@ -67,7 +67,7 @@ const timelineData = [
     {
         year: '1997',
         mainTitle: 'Liga Rosarina 1997',
-        imageURL: 'https://picsum.photos/650/250?random=9', 
+        imageURL: 'images/1997.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 92 - 89 Provincial', content: 'Integrantes: Germán Andersen, Gabriel Bracco, Julio Galván, Mariano García, Sebastián Garnero, Gastón Morange, Martín Moser, Gabriel Paradiso, Gallardo Peca, Mauricio Piva, Leandro Tano, Pablo Vela, Guillermo Pio All (DT).' }
         ]
