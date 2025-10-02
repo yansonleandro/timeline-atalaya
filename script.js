@@ -6,7 +6,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2025-2.jpeg', 
         items: [
-            { slideTitle: 'Atalaya Club 71 - 68 Sanjustino', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
+            { slideTitle: 'Atalaya Club 71 - 68 Sanjustino', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT), Gabriel Pascuali (PF).' },
         ]
     },
     {
@@ -15,7 +15,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2025-1.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
+            { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT), Gabriel Pascuali (PF).' },
         ]
     },
     {
@@ -24,7 +24,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2023.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 88 - 73 Unión y Progreso', content: 'Integrantes: Tomás Casas, Nicolás Castaño, Joaquín Etchevarne, Nicolás Giraudo, Francisco López, Facundo Maruelli, Brian Najnudel, Emanuel Rava, Luka Rueda, Rafael Scaglia, Máximo Sosa, Leandro Yanson, Andrés Malajovich (DT).' }
+            { slideTitle: 'Atalaya Club 88 - 73 Unión y Progreso', content: 'Integrantes: Tomás Casas, Nicolás Castaño, Joaquín Etchevarne, Nicolás Giraudo, Francisco López, Facundo Maruelli, Brian Najnudel, Emanuel Rava, Luka Rueda, Rafael Scaglia, Máximo Sosa, Leandro Yanson, Andrés Malajovich (DT),Sofía Stiechr (PF).' }
         ]
     },
     {
@@ -33,7 +33,7 @@ const timelineData = [
         imagePosition: 'bottom',
         imageURL: 'images/2021.png', 
         items: [
-            { slideTitle: 'Atalaya Club 61 - 56 Sportsmen Unidos', content: 'Integrantes: Bernard Báez, Juan José Borches, Tomás Casas, Nicolás Castaño, Mateo Ceñera, Mateo López, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Luka Rueda, Máximo Sosa, Alejo Suárez, Lautaro Suárez, Mauro Tarragó, Lisandro Villa, Leandro Yanson, Andrés Malajovich (DT).' }
+            { slideTitle: 'Atalaya Club 61 - 56 Sportsmen Unidos', content: 'Integrantes: Bernard Báez, Juan José Borches, Tomás Casas, Nicolás Castaño, Mateo Ceñera, Mateo López, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Luka Rueda, Máximo Sosa, Alejo Suárez, Lautaro Suárez, Mauro Tarragó, Lisandro Villa, Leandro Yanson, Andrés Malajovich (DT), Sofía Stiechr (PF).' }
         ]
     },
      {
@@ -42,7 +42,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2019.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 79 - 59 Temperley', content: 'Integrantes: Juan José Borches, Alejandro Ettorre, Santiago Giraudo, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Federico Pérez, Emanuel Rava, Lautaro Suárez, Lisandro Villa, Joaquín Villanueva, Leandro Yanson, Maximiliano Yanson, Valentino Zanoni, Mariano Junco (DT).' }
+            { slideTitle: 'Atalaya Club 79 - 59 Temperley', content: 'Integrantes: Juan José Borches, Alejandro Ettorre, Santiago Giraudo, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Federico Pérez, Emanuel Rava, Lautaro Suárez, Lisandro Villa, Joaquín Villanueva, Leandro Yanson, Maximiliano Yanson, Valentino Zanoni, Mariano Junco (DT), Antonela Quattroqui (PF).' }
         ]
     },
     {
@@ -51,7 +51,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2018.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 72 - 68 Talleres R.P.B.', content: 'Integrantes: Juan José Borches, Aarón Capra, Alejandro Ettorre, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Joaquín Rios, Lautaro Suárez, Gonzalo Tapatta, Lisandro Villa, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
+            { slideTitle: 'Atalaya Club 72 - 68 Talleres R.P.B.', content: 'Integrantes: Juan José Borches, Aarón Capra, Alejandro Ettorre, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Joaquín Rios, Lautaro Suárez, Gonzalo Tapatta, Lisandro Villa, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT), Antonela Quattroqui (PF).' }
         ]
     },
     {
@@ -60,7 +60,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2017.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 57 - 54 El Tala', content: 'Integrantes: Felipe Avataneo, Manuel Bello, Juan José Borches, Aarón Capra, Brandon Gargicevich, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
+            { slideTitle: 'Atalaya Club 57 - 54 El Tala', content: 'Integrantes: Felipe Avataneo, Manuel Bello, Juan José Borches, Aarón Capra, Brandon Gargicevich, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT), Antonela Quattroqui (PF).' }
         ]
     },
     {
@@ -69,7 +69,7 @@ const timelineData = [
         imagePosition: 'center',
         imageURL: 'images/2016-17.jpg', 
         items: [
-            { slideTitle: 'Atalaya Club 72 - 60 C.A.O.V.A.', content: 'Integrantes: Felipe Avataneo, Juan José Borches, Brandon Gargicevich, Fabrisio Lasala, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
+            { slideTitle: 'Atalaya Club 72 - 60 C.A.O.V.A.', content: 'Integrantes: Felipe Avataneo, Juan José Borches, Brandon Gargicevich, Fabrisio Lasala, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT), Antonela Quattroqui (PF).' }
         ]
     },
     {

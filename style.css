@@ -242,13 +242,13 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
 /* Estilos refinados para el contenido del slider */
 .slider-item h4 {
     font-size: 1.1em;
-    color: #e0e0e0; /* Texto del subtítulo en gris claro */
+    color: #ffffff; /* Texto del subtítulo en gris claro */
     margin-top: 0;
     margin-bottom: 8px;
 }
 .slider-item p {
     font-size: 1em;
-    color: #ccc; /* Texto del párrafo en gris claro */
+    color: #ffffff; /* Texto del párrafo en gris claro */
     line-height: 1.6;
 }
 
