@@ -3,7 +3,7 @@ const timelineData = [
     {
         year: '2025',
         mainTitle: 'Copa Santa Fe 2025',
-        imagePosition: 'center 47.5%',
+        imagePosition: 'center',
         imageURL: 'images/2025-2.jpeg', 
         items: [
             { slideTitle: 'Atalaya Club 71 - 68 Sanjustino', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
@@ -12,7 +12,7 @@ const timelineData = [
     {
         year: '2025', // Año repetido
         mainTitle: 'Copa 99º Aniversario 2025',
-        imagePosition: 'center 20%',
+        imagePosition: 'center',
         imageURL: 'images/2025-1.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 61 - 60 Temperley', content: 'Integrantes: Joaquin Baridón, Juan José Borches, Tomás Casas, Nicolás Castaño, Esteban Celotti, Franco Galleano, Federico Gettig, Nicolás Giraudo, Facundo Maruelli, Gabriel Martín, Juan Ignacio Martino, Luka Rueda, Geronimo Verdaro, Valentino Verdaro, Maximiliano Yanson, Juan Pablo Lupo (DT).' },
@@ -21,7 +21,7 @@ const timelineData = [
     {
         year: '2023',
         mainTitle: 'Copa 95º Aniversario 2023',
-        imagePosition: 'center 45%',
+        imagePosition: 'center',
         imageURL: 'images/2023.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 88 - 73 Unión y Progreso', content: 'Integrantes: Tomás Casas, Nicolás Castaño, Joaquín Etchevarne, Nicolás Giraudo, Francisco López, Facundo Maruelli, Brian Najnudel, Emanuel Rava, Luka Rueda, Rafael Scaglia, Máximo Sosa, Leandro Yanson, Andrés Malajovich (DT).' }
@@ -30,7 +30,7 @@ const timelineData = [
     {
         year: '2021',
         mainTitle: 'Superliga Rosarina 2021',
-        imagePosition: 'center 60%',
+        imagePosition: 'bottom',
         imageURL: 'images/2021.png', 
         items: [
             { slideTitle: 'Atalaya Club 61 - 56 Sportsmen Unidos', content: 'Integrantes: Bernard Báez, Juan José Borches, Tomás Casas, Nicolás Castaño, Mateo Ceñera, Mateo López, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Luka Rueda, Máximo Sosa, Alejo Suárez, Lautaro Suárez, Mauro Tarragó, Lisandro Villa, Leandro Yanson, Andrés Malajovich (DT).' }
@@ -39,7 +39,7 @@ const timelineData = [
      {
         year: '2019',
         mainTitle: 'Superliga Rosarina 2019',
-        imagePosition: 'center 75%',
+        imagePosition: 'center',
         imageURL: 'images/2019.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 79 - 59 Temperley', content: 'Integrantes: Juan José Borches, Alejandro Ettorre, Santiago Giraudo, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Federico Pérez, Emanuel Rava, Lautaro Suárez, Lisandro Villa, Joaquín Villanueva, Leandro Yanson, Maximiliano Yanson, Valentino Zanoni, Mariano Junco (DT).' }
@@ -48,8 +48,8 @@ const timelineData = [
     {
         year: '2018',
         mainTitle: 'Superliga Rosarina 2018',
-        imagePosition: 'center 58%',
-        imageURL: 'images/2018.jpeg', 
+        imagePosition: 'center',
+        imageURL: 'images/2018.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 72 - 68 Talleres R.P.B.', content: 'Integrantes: Juan José Borches, Aarón Capra, Alejandro Ettorre, Mariano Laurido, Facundo Maruelli, Santiago Orellano, Emanuel Rava, Joaquín Rios, Lautaro Suárez, Gonzalo Tapatta, Lisandro Villa, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
         ]
@@ -57,7 +57,7 @@ const timelineData = [
     {
         year: '2017',
         mainTitle: 'Superliga Rosarina 2017',
-        imagePosition: 'center 35%',
+        imagePosition: 'center',
         imageURL: 'images/2017.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 57 - 54 El Tala', content: 'Integrantes: Felipe Avataneo, Manuel Bello, Juan José Borches, Aarón Capra, Brandon Gargicevich, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
@@ -66,7 +66,7 @@ const timelineData = [
     {
         year: '2017', // Año repetido
         mainTitle: 'Liga Rosarina 2016/17',
-        imagePosition: 'center 36%',
+        imagePosition: 'center',
         imageURL: 'images/2016-17.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 72 - 60 C.A.O.V.A.', content: 'Integrantes: Felipe Avataneo, Juan José Borches, Brandon Gargicevich, Fabrisio Lasala, Facundo Maruelli, Mauro Moreno, Santiago Orellano, Federico Pérez, Leandro Pugnali, Lautaro Suárez, Leandro Yanson, Maximiliano Yanson, Mariano Junco (DT).' }
@@ -75,7 +75,7 @@ const timelineData = [
     {
         year: '1997',
         mainTitle: 'Liga Rosarina 1997',
-        imagePosition: 'center 15%',
+        imagePosition: 'left',
         imageURL: 'images/1997.jpg', 
         items: [
             { slideTitle: 'Atalaya Club 92 - 89 Provincial', content: 'Integrantes: Germán Andersen, Gabriel Bracco, Julio Galván, Mariano García, Sebastián Garnero, Gastón Morange, Martín Moser, Gabriel Paradiso, Gallardo Peca, Mauricio Piva, Leandro Tano, Pablo Vela, Guillermo Pio All (DT).' }
@@ -101,10 +101,12 @@ function createEventCard(event, index, totalEvents) {
 
     const starNumber = totalEvents - index;
     wrapperDiv.innerHTML = `
-        <img src="${event.imageURL}" alt="${event.mainTitle}" class="event-image" style="object-position: ${event.imagePosition || 'center'};">
-        <h2>${starNumber}★ - ${event.mainTitle}</h2>
+        <img src="${event.imageURL}" alt="${event.mainTitle}" class="event-image" style="object-position: ${event.imagePosition || 'center center'};">
+        <div class="event-text-content">
+            <h2>${starNumber}★ - ${event.mainTitle}</h2>
+        </div>
     `;
-
+    
     const sliderContainer = document.createElement('div');
     sliderContainer.className = 'horizontal-slider';
     event.items.forEach(item => {
@@ -117,7 +119,7 @@ function createEventCard(event, index, totalEvents) {
         sliderContainer.appendChild(sliderItem);
     });
 
-    wrapperDiv.appendChild(sliderContainer);
+    wrapperDiv.querySelector('.event-text-content').appendChild(sliderContainer);
     eventDiv.appendChild(wrapperDiv);
     return eventDiv;
 }

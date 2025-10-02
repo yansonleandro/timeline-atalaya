@@ -159,13 +159,14 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
 
 /* --- TARJETA DE CONTENIDO (Expansión y Aparición a la Derecha) --- */
 .event-content-wrapper {
+    display: flex; /* Alinea imagen y texto horizontalmente */
+    gap: 25px; /* Espacio entre la imagen y el contenido de texto */
     width: calc(100vw - var(--line-position) - 80px);
     max-width: var(--content-width);
     padding: 25px; /* Añadido padding para que el contenido no toque los bordes */
     background: var(--ucla-blue); /* Cambiado a fondo azul oscuro */
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    
     transform-origin: left center;
     /* ESTADO INICIAL (Colapsado/Minimizado) */
     opacity: 0;
@@ -187,22 +188,37 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
     transform: scale(1.2);
 }
 
-.event-content-wrapper h2 {
+/* Contenedor para el texto (título y slider) a la derecha de la imagen */
+.event-text-content {
+    flex: 1; /* Ocupa el espacio restante */
+    display: flex;
+    flex-direction: column;
+    min-width: 0; /* Soluciona problemas de overflow con flexbox */
+}
+
+.event-text-content h2 {
     color: #fff; /* Texto del título en blanco para contraste */
     border-bottom: 2px solid #fff; /* Borde inferior blanco */
     padding-bottom: 10px;
     margin-top: 0;
     font-size: 1.8em;
+    margin-bottom: 15px; /* Espacio entre título y slider */
 }
 
 /* Imagen principal (visible y nítida) */
 .event-image {
-    width: 100%;
-    height: 250px;
+    flex-shrink: 0; /* Evita que la imagen se encoja */
+    width: 580px; /* Ancho de imagen aumentado otro 5% */
+    height: auto; /* La altura se ajustará para mantener la proporción */
+    aspect-ratio: 4 / 3; /* Proporción para mantener consistencia */
     object-fit: cover; /* Recorta la imagen para llenar el espacio */
-    object-position: center; /* Centra la imagen dentro de su espacio */
     border-radius: 8px;
-    margin-bottom: 15px;
+    transition: transform 0.4s ease; /* Añade una transición suave para el zoom */
+}
+
+/* Efecto de zoom al pasar el ratón por encima de la imagen */
+.event-image:hover {
+    transform: scale(1.05); /* Aplica un zoom del 5% */
 }
 
 /* --- SCROLL SNAP HORIZONTAL INTERNO (Retenido) --- */
@@ -240,6 +256,17 @@ body { -ms-overflow-style: none; scrollbar-width: none; }
 @media (max-width: 900px) {
     :root {
         --line-position: 60px; /* Ancho reducido para la columna de fechas */
+    }
+
+    .event-content-wrapper {
+        flex-direction: column; /* Vuelve a apilar imagen y texto verticalmente */
+        gap: 15px;
+    }
+
+    .event-image {
+        width: 100%; /* La imagen ocupa todo el ancho */
+        height: 200px; /* Altura fija para móvil */
+        aspect-ratio: unset; /* Quitamos la proporción para controlar la altura */
     }
 
     /* Ocultar solo la barra de navegación superior */
